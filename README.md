@@ -1,140 +1,143 @@
-# 🛒 Shoppy — React Admin Dashboard
+# 📊 React Admin Dashboard
 
-A blazing-fast, fully-featured **React** admin dashboard template built with **Create React App + Tailwind CSS + Syncfusion React UI**. It ships with light / dark themes, 8 accent colors, responsive layouts, advanced charts, a Kanban board, calendar, data grid, and everything you need to kick-start your next internal tool or SaaS admin panel.
-
-## Table of Contents
-- [Live Demo](#live-demo)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Getting Started](#getting-started)
-- [Available Scripts](#available-scripts)
-- [Folder Structure](#folder-structure)
-- [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [License](#license)
+**React Admin Dashboard** is a modern, customizable, and fully responsive admin interface built with React and Tailwind CSS. It provides visually rich data representations and productivity features such as charts, tables, calendars, and a Kanban board. Designed to be scalable and extensible, this dashboard is ideal for managing any business, e-commerce, or internal system.
 
 ---
 
-## Live Demo
+## 🚀 Live Demo
 
-👉 **Production build:** https://your-shopsy.vercel.app/
-
----
-
-## Features
-
-- ✨ **Create React App powered**  
-- 🎨 **Theme switcher** – light, dark & 8 brand colors  
-- 📊 **Advanced charts** – Line, Area, Column, Pie, Radar, Financial, Sparkline & Stacked  
-- 🗂️ **Data grid** – filtering, pagination & sorting out-of-the-box  
-- 🗓️ **Calendar** – drag-and-drop events, day / week / month views  
-- 📌 **Kanban board** – drag cards between custom swim-lanes  
-- 🏎️ **Responsive design** with smooth UX  
-- 🔒 **Auth-ready** structure – drop-in JWT / Firebase / Supabase  
+👉 [Try the Dashboard Live](https://your-shopsy.vercel.app/)
 
 ---
 
-## Tech Stack
+## 📦 GitHub Repository
 
-| Category | Libraries |
-|---|---|
-| Framework | [React](https://reactjs.org/) + [Create React App](https://create-react-app.dev/) |
-| Styling | [Tailwind CSS 3](https://tailwindcss.com/) |
-| UI Components | [Syncfusion React](https://www.syncfusion.com/react-components) (Charts, Grid, Calendar, Kanban) |
-| Routing | [React Router 6](https://reactrouter.com/) |
-| Icons | [react-icons](https://react-icons.github.io/react-icons/) |
-| State Mgmt | React Context API |
-| Tooling | ESLint, Prettier |
+[https://github.com/sumit-616/react-admin-dashboard](https://github.com/sumit-616/shoppy)
 
 ---
 
-## Getting Started
+## ✨ Features
 
-### Prerequisites
+- **Customizable Theme:**  
+  Switch between light/dark modes and multiple color schemes.
 
-- **Node.js >= 18**
-- **npm** or **yarn**
+- **Analytics & Charts:**  
+  - Line, Bar, Pie, Area charts  
+  - Built using `react-icons`, `syncfusion`, and native SVG
 
-### Clone & Run
+- **Tables:**  
+  - Display orders, products, customers, or any dataset  
+  - Search, sort, and paginate easily
 
-```bash
-# clone the repo
-git clone https://github.com/sumit-616/shoppy.git
-cd shoppy
+- **Calendar:**  
+  - Interactive scheduling using full calendar component  
+  - Create, update, or delete events
 
-# install dependencies
-npm install         # or yarn install
+- **Kanban Board:**  
+  - Drag-and-drop task management  
+  - Track work across columns and categories
 
-# start dev server
-npm start           # or yarn start
-```
+- **Sidebar Navigation:**  
+  - Responsive drawer navigation  
+  - Icons for all sections with active state indication
 
-The app will be available at **http://localhost:3000**.
+- **Fully Responsive UI:**  
+  Works great on desktops, tablets, and mobile screens
 
----
-
-## Available Scripts
-
-| Command | Description |
-|---|---|
-| `npm start` | Start development server with Create React App |
-| `npm run build` | Create an optimized production build |
-| `npm run test` | Run tests (if configured) |
-| `npm run lint` | Lint all source files with ESLint (optional) |
-| `npm run format` | Format source files with Prettier (optional) |
+- **Modern Stack:**  
+  Tailwind CSS + React + Syncfusion UI components
 
 ---
 
-## Folder Structure
+## 🛠️ Tech Stack
 
-```text
-src
-├── components
-│   ├── Charts/
-│   ├── Button.jsx
-│   ├── Cart.jsx
-│   ├── ChartsHeader.jsx
-│   ├── Chat.jsx
-│   ├── Footer.jsx
-│   ├── Header.jsx
-│   ├── Navbar.jsx
-│   ├── Notification.jsx
-│   ├── Sidebar.jsx
-│   ├── ThemeSettings.jsx
-│   └── UserProfile.jsx
-├── contexts
-│   └── ContextProvider.js
-├── data
-│   ├── avatar.jpg
-│   ├── avatar2.jpg
-│   ├── avatar3.png
-│   ├── product1.jpg — product9.jpg
-│   └── welcome-bg.svg
-├── pages
-│   ├── Charts/
-│   ├── Calendar.jsx
-│   ├── ColorPicker.jsx
-│   ├── Customers.jsx
-│   ├── Ecommerce.jsx
-│   ├── Editor.jsx
-│   ├── Employees.jsx
-│   ├── Kanban.jsx
-│   └── Orders.jsx
-├── App.css
-├── App.js
-├── index.css
-└── index.js
-```
+- **React 18** – Frontend framework  
+- **Tailwind CSS** – Utility-first styling  
+- **Syncfusion React Components** – Data visualizations and UI components  
+- **React Router v6** – Client-side routing  
+- **Framer Motion** – Page transitions and animations  
+- **React Icons** – Icon library for consistent visuals  
+- **Vite** – Fast development and optimized build
+
 ---
 
-## Contributing
+## 📥 Installation
 
-Contributions, issues and feature requests are welcome!  
-Feel free to **open an issue** or **submit a pull request**.
+To run the app locally:
 
-1. Fork the repository  
-2. Create your feature branch (`git checkout -b feat/amazing-feature`)  
-3. Commit your changes (`git commit -m 'feat: add amazing feature'`)  
-4. Push to the branch (`git push origin feat/amazing-feature`)  
-5. Open a Pull Request
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/sumit-616/react-admin-dashboard.git
+   cd react-admin-dashboard
+   ```
 
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+
+   App will be available at **http://localhost:5173**
+
+---
+
+## 🧭 Dashboard Pages Overview
+
+- **Dashboard:** Overview of recent analytics  
+- **Orders:** Tabular listing with customer and status info  
+- **Employees:** Team details with role and contact  
+- **Customers:** List of customers and purchase info  
+- **Kanban:** Visual project management board  
+- **Editor:** WYSIWYG text editor for documentation  
+- **Calendar:** Drag-and-drop event calendar  
+- **Color Picker:** Custom theme configuration  
+- **Charts:** Data visualizations using area, pie, bar, line, spark charts
+
+---
+
+## 📝 How to Use
+
+- Navigate using the sidebar menu.  
+- Use the top-right theme settings gear ⚙️ to customize appearance.  
+- On chart pages, hover to explore tooltips and values.  
+- Add/edit/delete entries on the Kanban and Calendar pages interactively.  
+- Try switching between light/dark themes to match your preference.
+
+---
+
+## 🤝 Contributing
+
+1. **Fork** the repository  
+2. **Clone** your fork:
+   ```bash
+   git clone https://github.com/your-username/react-admin-dashboard.git
+   ```
+3. **Create** a new branch:
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+4. **Commit** your changes:
+   ```bash
+   git commit -m "Describe your changes"
+   ```
+5. **Push** to your fork:
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+6. **Open** a Pull Request
+
+---
+
+## 📄 License
+
+This project is open-source and available under the [MIT License](LICENSE).
+
+---
+
+## 🙌 Author
+
+Built with ❤️ by [Sumit Kumar](https://github.com/sumit-616)
