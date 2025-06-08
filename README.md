@@ -12,7 +12,7 @@
 
 ## 📦 GitHub Repository
 
-[https://github.com/sumit-616/react-admin-dashboard](https://github.com/sumit-616/shoppy)
+[https://github.com/sumit-616/shoppy](https://github.com/sumit-616/shoppy)
 
 ---
 
